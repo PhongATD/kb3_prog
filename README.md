@@ -21,6 +21,7 @@ Tento repozitář je nastavený jako *read-only*. Pro možnost úprav si budete 
 3. Otevři paletu příkazů (**Ctrl+Shift+P**).
 4. Zadej **Git: Clone**.
 5. Vlož **URL svého forku** (ne originálu).
+
 6. Vyber složku na disku.
 7. Otevři naklonovaný repozitář ve VS Code.
 
