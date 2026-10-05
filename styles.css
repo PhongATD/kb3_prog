@@ -1,0 +1,47 @@
+body{
+    max-width: 900px;
+    color:coral;
+    margin:auto;
+    text-align: justify;
+}
+.bily{
+    background-color: bisque;
+    border-radius: 16px;
+    height: 100px;
+    
+
+}
+.cerny{
+    background-color: black;
+    border-radius: 16px;
+    height: 100px;
+
+}
+p{
+    padding: 20px;
+}
+.vpravo{
+    width: 50px;
+    float: right;
+    padding: 20px;
+}
+#nazev{
+    text-align: center;
+    color:aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    border-radius: 15px;
+}
+#nav{
+    border: 2px solid black;
+    padding: 16px;
+}
+.vlevo{
+    width: 50px;
+    float: left;
+    padding: 20px;
+}
+.nav-a{
+    padding:20px;
+}
