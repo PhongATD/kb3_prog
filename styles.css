@@ -36,12 +36,27 @@ img{
 #nav{
     border: 2px solid black;
     padding: 16px;
+    display: flex;
+    justify-content: space-around;
 }
 .vlevo{
     width: 50px;
     float: left;
     padding: 20px;
 }
-.nav-a{
-    padding:20px;
+
+#nav a{
+    background-color:  brown;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#nav a:hover {
+    color:red;
+    
+}
+img:hover{
+    width: 55px;
+    transition: 1s;
 }
