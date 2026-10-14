@@ -10,12 +10,20 @@
     filter: brightness(33%) blur(3px);
 }
 #nav a{
-    padding: 50px;
-    padding-top: 25px;
-    font-size: 30px;
+    padding: 65px;
+    padding-top: 35px;
+    font-size: 35px;
     float:right;
     text-decoration: none;
-    color:rgb(190, 172, 64);
-
+    color:aliceblue;
+}
+.oddeleni{
+    border: 1px solid rgb(214, 194, 82);
+    position:relative;
+    top:100px;
+}
+#nadpis {
+    color:rgb(214, 194, 82);
+    
 }
 
