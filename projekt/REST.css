@@ -9,4 +9,13 @@
 
     filter: brightness(33%) blur(3px);
 }
+#nav a{
+    padding: 50px;
+    padding-top: 25px;
+    font-size: 30px;
+    float:right;
+    text-decoration: none;
+    color:rgb(190, 172, 64);
+
+}
 
