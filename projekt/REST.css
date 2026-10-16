@@ -21,24 +21,19 @@ body{
     float:right;
     text-decoration: none;
     color:aliceblue;
+    
 }
-.oddeleni{
+hr{
     border: 1px solid rgb(214, 194, 82);
-    position:relative;
-    top:100px;
+    
 }
-#nadpis {
-    color:rgb(214, 194, 82);
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-    width: 200vh;
+
+#menu {
+    margin-top: 40%;
+    
+    padding: 1px;
+    border-radius: 10px;
 }
-#podnadpis{
-    font-size:large;
- 
-}
+
 
 
