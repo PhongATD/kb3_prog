@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java skript</title>
+    <style>
+        p {
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <p id="vystup"></p>
+    <p id = zbyva> </p>
+    <p id="vysledek1"></p>
+    <script>
+        let cislo = Number(prompt("zadej mi polomer: "));
+        let pi = 3.14;
+        let polomer = cislo * cislo;
+        let obsah = pi * polomer;
+        document.getElementById("vystup").innerHTML = "obsah kruhu je: " + obsah;
+        
+        let vek = Number(prompt("zadej mi kolik ti je: "));
+        let duchod = 65 - vek;
+        document.getElementById("zbyva").innerHTML = "ahoj, zbyva ti " + duchod + " let do duchodu";
+
+        let kalkulacka1 = Number(prompt("zadej 1. cislo: "));
+        let znamenko = prompt("zadej znamemko: ");
+        let kalkulacka2 = Number(prompt("zadej 2. cislo: "));
+
+        if( znamenko == "+") {
+            vysledek = kalkulacka1 + kalkulacka2
+        };
+        
+        if( znamenko == "-") {
+            vysledek = kalkulacka1 - kalkulacka2
+        };
+
+        if( znamenko == "*") {
+            vysledek = kalkulacka1 * kalkulacka2
+        };
+
+        if( znamenko == "/") {
+            vysledek = kalkulacka1 / kalkulacka2
+        };
+        document.getElementById("vysledek1").innerHTML = "vysledek: " + vystup;
+
+
+
+
+    </script>
+
+
+</body>
+</html>
